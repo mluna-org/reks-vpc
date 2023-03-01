@@ -1,22 +1,22 @@
 ##### Agregados por mi
 
-variable "public_subnets" {
-  description = "define only if the subnet cannot be autocalculated or if the number of subnets needed is different from the number of azs"
-  type        = list(string)
-  default     = []
-}
+# variable "public_subnets" {
+#   description = "define only if the subnet cannot be autocalculated or if the number of subnets needed is different from the number of azs"
+#   type        = list(string)
+#   default     = []
+# }
 
-variable "intra_subnets" {
-  description = "Subnet list for RDS and DB purposes"
-  type        = list(string)
-  default     = []
-}
+# variable "intra_subnets" {
+#   description = "Subnet list for RDS and DB purposes"
+#   type        = list(string)
+#   default     = []
+# }
 
-variable "private_subnets" {
-  description = "define only if the subnet cannot be autocalculated or if the number of subnets needed is different from the number of azs"
-  type        = list(string)
-  default     = []
-}
+# variable "private_subnets" {
+#   description = "define only if the subnet cannot be autocalculated or if the number of subnets needed is different from the number of azs"
+#   type        = list(string)
+#   default     = []
+# }
 
 #########################################
 variable "create_vpc" {
